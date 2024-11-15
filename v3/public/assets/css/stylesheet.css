@@ -1,0 +1,66 @@
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F8F8F8;
+  color: #2D2D2D;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #2D2D2D;
+}
+.sidebar .sidebar-header {
+  font-weight: bold;
+}
+.sidebar .nav-link {
+  color: #F8F8F8 !important;
+}
+.sidebar .nav-link.active {
+  background-color: #5A67D8;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+}
+.card h5 {
+  font-weight: 600;
+  color: #2D2D2D;
+}
+.card h2 {
+  font-weight: 700;
+}
+
+.card-overdue {
+  background-color: #F8F8F8;
+}
+.card-overdue:hover h5, .card-overdue:hover h2 {
+  color: #5A67D8;
+}
+
+.card p {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.card p:last-of-type {
+  border-bottom: none;
+}
+
+.vertical-divider {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 24px;
+  margin: 0 0.5rem;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0.5rem 1rem;
+}
+
+.card-equal-height {
+  min-height: 500px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
